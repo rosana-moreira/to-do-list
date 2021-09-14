@@ -3,7 +3,7 @@
 
 # Descrição do Projeto
 <p align="center">
-Jogo desenvolvido para curso da IBM Winning Woman - Primeira Fase.
+To Do List desenvolvido para curso da IBM Winning Woman - Primeira Fase.
 </p>
 
 <h1 align="center">
