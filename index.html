@@ -11,9 +11,9 @@
         <div class="caixa">
             <h1 class="titulo">TO DO LIST</h1>
             <div class="paletas_div">
-                <div id="paleta1" class="paleta"></div>
-                <div id="paleta2" class="paleta"></div>
-                <div id="paleta3" class="paleta"></div>
+                <div id="paleta1" class="paleta" onclick="definePaleta('seagreen')"></div>
+                <div id="paleta2" class="paleta" onmousemove="definePaleta('slateblue')"></div>
+                <div id="paleta3" class="paleta" ondblclick="definePaleta('tomato')"></div>
             </div>
             <p class="erro"></p>
             <div class="input_div">
@@ -21,20 +21,9 @@
                 <button class="botao_adc">+</button>
             </div>
             <div class="lista_atividades">
-                <div class="atividade">
-                    <h2>Atividade 1</h2>
-                    <button class="botao_del">Limpar</button>
-                </div>
-                <div class="atividade">
-                    <h2>Atividade 2</h2>
-                    <button class="botao_del">Limpar</button>
-                </div>
-                <div class="atividade">
-                    <h2>Atividade 3</h2>
-                    <button class="botao_del">Limpar</button>
-                </div>
+               
             </div>
-            <button class="botao_del_todos">Limpar lista</button>
+            <button class="botao_del_todos" onclick="removeAtividades()">Limpar lista</button>
         </div>
     </div>
 <script src="app.js"></script>
